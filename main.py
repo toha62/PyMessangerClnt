@@ -3,10 +3,10 @@ import json
 import sys
 import datetime
 import requests
-from PyQt6 import uic, QtCore, QtGui, QtWidgets
+from PyQt6 import uic, QtCore, QtWidgets
 from requests import HTTPError
 
-
+"""
 class MainWindow(QtWidgets.QMainWindow):
     ServerAdress = 'http://localhost:5000'
     MessageID = 0
@@ -68,3 +68,4 @@ if __name__ == '__main__':
     timer.timeout.connect(w.timer_Event)
     timer.start(5000)
     sys.exit(app.exec())
+"""
